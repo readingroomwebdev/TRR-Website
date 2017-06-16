@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h{
+    font-family: 'Arvo', serif;
+}
+.header{
+    background: url(images/logo_guitar.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    background: #000;
+    height: 74px;
+    width: 100%; 
+    text-align: center;
+    }
+img.logo{
+    width: 250px;
+    margin: 0 auto;
+    padding: 2px;
+    filter: invert(100%);
+}
+nav a{
+    margin: 22px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+}
+nav a:hover{
+    color: #911500;
+}
+nav a.left{
+    float: left;
+}
+nav a.right{
+    float: right;
+}
+section.social{
+    height: 90px;
+}
+img.social{
+    float: left;
+    margin: auto auto;
+}
+section.news{
+    background: #9f9f9f;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    box-sizing: border-box;
+}
+section.about{
+    padding: 34px;
+    background-color: #5a5a5a;
+    clear: both;
+}
+footer{
+    height: 50px;
+    background: #4a4a4a;
+    text-align: center;
+    padding: 18px;
+}
