@@ -18,7 +18,7 @@ h{
 nav{
     background: #000;
     height: 74px;
-    width: 100%; 
+    width: 100%;
     text-align: center;
     }
 img.logo{
@@ -28,10 +28,11 @@ img.logo{
     filter: invert(100%);
 }
 nav a{
-    margin: 22px;
+    margin: 65px;
+    margin-top: 25px;
     color: #fff;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 50px;
 }
 nav a:hover{
     color: #911500;
