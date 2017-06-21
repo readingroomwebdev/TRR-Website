@@ -3,6 +3,7 @@ body{
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 18px;
+    background: #4d0000;
 }
 h{
     font-family: 'Arvo', serif;
@@ -13,13 +14,15 @@ h{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    width: 100%;
 }
 nav{
-    background: #000;
+    background: #1a0000;
     height: 74px;
     width: 100%;
     text-align: center;
+    align-content: center;
+    position: fixed;
     }
 img.logo{
     width: 250px;
@@ -28,49 +31,71 @@ img.logo{
     filter: invert(100%);
 }
 nav a{
-    margin: 65px;
-    margin-top: 25px;
     color: #fff;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 32px;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 24px;
+}
+nav a, .logo{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 nav a:hover{
     color: #911500;
+    transition: .2s;
 }
-nav a.left{
-    float: left;
-}
-nav a.right{
-    float: right;
+div.links{
+    width: 70%;
+    margin: 0 auto;
 }
 section.social{
     height: 90px;
-    width: 70%;
     text-align: center;
     margin: 0 auto;
+    align-content: center;
+    padding: 4px;
 }
-section.social img{
-    width: 50px;
+div.social{
     margin: 18px 4% 18px 4%;
+    display: inline-block;
+    width: 60;
+    height: 60;
+    padding: 2px;
+    vertical-align: top;
+}
+.social img{
+    width: 50px;
+    padding: 2px;
+}
+img.social:hover{
+    width: 54px;
+    padding: none;
+    transition: .2s;
 }
 section.news{
-    background: #9f9f9f;
     align-items: center;
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    padding: 4px;
+    padding: 24px;
     box-sizing: border-box;
+    color: #fff8e7;
 }
 div.feature{
-    width: 85%;
-    height: 300px;
+    max-width: 900px;
     margin: 24 auto;
-    background: #4f4f4f;
+    background: #fff8e7;
+    color: black;
+    text-align: left;
+    padding: 24px;
+}
+.feature h1{
+    text-align: center;
 }
 section.about{
     padding: 34px;
-    background-color: #5a5a5a;
     clear: both;
 }
 section.about h1{
@@ -91,6 +116,8 @@ section.about img{
 .desc{
     max-width: 700px;
     margin: 0 auto;
+    background: #fff8e7;
+    padding: 22px;
 }
 desc.text{
     margin-left: 12px;
@@ -98,7 +125,8 @@ desc.text{
 }
 footer{
     height: 50px;
-    background: #4a4a4a;
+    background: #1a0000;
     text-align: center;
     padding: 18px;
+    color: #fff;
 }
