@@ -27,7 +27,7 @@ nav{
 img.logo{
     width: 250px;
     margin: 0 auto;
-    padding: 2px;
+
     filter: invert(100%);
 }
 nav a{
@@ -107,7 +107,7 @@ section.about h1{
 section.about img{
     width: 220px;
     shape-outside: url(images/logo_square_iconround.svg);
-    shape-image-threshold: 0.5;;
+    shape-image-threshold: 0.5;
     shape-margin: 18px;
     float: left;
     margin: 12px;
