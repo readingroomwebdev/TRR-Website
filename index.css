@@ -94,6 +94,55 @@ div.feature{
 .feature h1{
     text-align: center;
 }
+
+.feature input {
+  display: none;
+  visibility: hidden;
+}
+.feature label {
+  display: block;
+  padding: 0.5em;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+  
+}
+.feature label:hover {
+  color: #000;
+}
+.feature label::before {
+  
+  vertical-align: text-top;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+  
+  
+}
+.feature #expand {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+}
+
+.feature #toggleSUC:checked ~ #expand {
+  max-height: 1000px;
+}
+.feature #toggleSUC:unchecked ~ label::before {
+	
+
+}
+
+
+.feature #toggleTIS:checked ~ #expand {
+  max-height: 1000px;
+}
+.feature #toggleTIS:unchecked ~ label::before {
+	
+
+}
+
+
 section.about{
     padding: 34px;
     clear: both;
