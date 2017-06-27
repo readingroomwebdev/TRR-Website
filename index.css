@@ -104,20 +104,21 @@ div.feature{
   padding: 0.5em;
   text-align: center;
   border-bottom: 1px solid #CCC;
-  
+
 }
 .feature label:hover {
-  color: #000;
+  color: #4be5e9;
+  transition: .2s;
 }
 .feature label::before {
-  
+
   vertical-align: text-top;
   display: inline-block;
   width: 20px;
   height: 20px;
   margin-right: 3px;
-  
-  
+
+
 }
 .feature #expand {
   max-height: 0px;
@@ -129,7 +130,7 @@ div.feature{
   max-height: 1000px;
 }
 .feature #toggleSUC:unchecked ~ label::before {
-	
+
 
 }
 
@@ -138,7 +139,7 @@ div.feature{
   max-height: 1000px;
 }
 .feature #toggleTIS:unchecked ~ label::before {
-	
+
 
 }
 
