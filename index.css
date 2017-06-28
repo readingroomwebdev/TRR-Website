@@ -2,11 +2,22 @@ body{
     margin: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-    line-height: 18px;
-    background: #4d0000;
+    line-height: 24px;
+    background: #330000;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: #4d0000;
+}
+a:hover{
+    color: #cc0000;
 }
 h{
     font-family: 'Arvo', serif;
+}
+p{
+    padding: 24px;
 }
 .header{
     background: url(images/logo_guitar.jpg);
@@ -89,25 +100,33 @@ div.feature{
     background: #fff8e7;
     color: black;
     text-align: left;
-    padding: 24px;
 }
+/*
 .feature h1{
-    text-align: center;
+    text-align:left;
+    vertical-align: bottom;
+    padding: 32px;
+    font-size: 48px;
+    color: #112835;  
+}*/
+div.label{
+    background: url(images/altonameadowsfeature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
 }
-
 .feature input {
   display: none;
   visibility: hidden;
 }
 .feature label {
   display: block;
-  padding: 0.5em;
   text-align: center;
-  border-bottom: 1px solid #CCC;
 
 }
 .feature label:hover {
-  color: #4be5e9;
+  color: #5e9cbf;
   transition: .2s;
 }
 .feature label::before {
@@ -133,8 +152,6 @@ div.feature{
 
 
 }
-
-
 .feature #toggleTIS:checked ~ #expand {
   max-height: 1000px;
 }
@@ -147,6 +164,7 @@ div.feature{
 section.about{
     padding: 34px;
     clear: both;
+    background: #fff8e7;
 }
 section.about h1{
     margin: 0 auto;
@@ -164,7 +182,7 @@ section.about img{
     margin-top: 30px;
 }
 .desc{
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
     background: #fff8e7;
     padding: 22px;
@@ -174,7 +192,7 @@ desc.text{
     padding:12px;
 }
 footer{
-    height: 50px;
+    height: 30px;
     background: #1a0000;
     text-align: center;
     padding: 18px;
