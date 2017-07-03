@@ -20,8 +20,8 @@ p{
     padding: 24px;
 }
 .header{
-    background: url(images/logo_guitar.jpg);
-    height: 100%;
+    background: url(images/banner/banner_lake.jpg);
+    height: 85%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,7 +38,6 @@ nav{
 img.logo{
     width: 250px;
     margin: 0 auto;
-
     filter: invert(100%);
 }
 nav a{
@@ -62,18 +61,17 @@ div.links{
     margin: 0 auto;
 }
 section.social{
-    height: 90px;
+    height: 80px;
     text-align: center;
     margin: 0 auto;
     align-content: center;
     padding: 4px;
-    padding-top: 22px;
 }
 div.social{
     margin: 18px 4% 18px 4%;
     display: inline-block;
-    width: 60;
-    height: 60;
+    width: 60px;
+    height: 60px;
     padding: 2px;
     vertical-align: top;
 }
