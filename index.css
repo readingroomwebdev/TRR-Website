@@ -13,19 +13,39 @@ a{
 a:hover{
     color: #cc0000;
 }
-h1{
+h1, h2, h3{
     font-family: 'Arvo', serif;
 }
+
+h2{
+    font-size: 5em;
+    line-height: 1.3em;
+    margin: 1em;
+    text-align: right;
+    color: #fff8e7;
+    padding-top: 15vh;
+}
+h3{
+    font-size: 4em;
+    color: #fff8e7;
+    text-align: right;
+    margin: 1em;
+    line-height: 
+}
 p{
-    padding: 24px;
+    padding: 18px;
 }
 .header{
-    background: url(images/banner/banner_lake.jpg);
-    height: 85%;
+    background: url(images/redbg.jpg);
+    height: 90%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+}
+.news.header{
+    background-image: none;
+    height: 8%
 }
 nav{
     background: #1a0000;
@@ -38,10 +58,10 @@ nav{
 img.logo{
     width: 250px;
     margin: 0 auto;
-    filter: invert(100%);
+    margin-top: 12px;
 }
 nav a{
-    color: #fff;
+    color: #fff8e7;
     text-decoration: none;
     font-size: 32px;
     vertical-align: top;
@@ -97,14 +117,13 @@ section.news{
     color: #000;
 }
 div.feature{
-    max-width: 800px;
+    max-width: 00px;
     margin: 0 auto;
     background: #fff8e7;
     color: black;
     text-align: left;
 }
 div.altona{
-    background: url(images/altonameadowsfeature.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -115,7 +134,6 @@ div.altona{
     line-height: 48px;
 }
 div.sunshine{
-    background: url(images/sunshinefeature.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -124,6 +142,7 @@ div.sunshine{
     padding: 48px;
     padding-top: 74px;
 }
+/*
 .feature input {
   display: none;
   visibility: hidden;
@@ -166,20 +185,14 @@ div.sunshine{
 
 br.clear{
     clear: both;
-}
+}*/
 section.about{
     padding: 34px;
     clear: both;
     background: #fff8e7;
 }
-section.about h1{
-    margin: 0 auto;
-    align-content: center;
-    text-align: center;
-    width: 100%;
-}
 section.about img{
-    width: 220px;
+    width: 260px;
     shape-outside: url(images/logo_square_iconround.svg);
     shape-image-threshold: 0.5;
     shape-margin: 18px;
@@ -188,21 +201,37 @@ section.about img{
     margin-top: 30px;
 }
 .desc{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     background: #fff8e7;
-    padding: 22px;
+    padding: 18px;
 }
 desc.text{
     margin-left: 12px;
     padding:12px;
+}
+.button{
+    background-color: #4d0000;
+    color: #fff8e7;
+    max-width: 300px;
+    padding: 8px;
+    margin: 18px;
+    border-radius: 18px;
+    margin-left: 550px;
+}
+.button a{
+    color: #fff8e7;
+}
+.button h4{
+    text-align: center;
+    margin: 18px;
 }
 footer{
     height: 30px;
     background: #1a0000;
     text-align: center;
     padding: 18px;
-    color: #fff;
+    color: #fff8e7;
 }
 
 @media (max-width 990px){
