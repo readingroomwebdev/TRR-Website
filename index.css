@@ -117,7 +117,7 @@ section.news{
     color: #000;
 }
 div.feature{
-    max-width: 700px;
+    max-width: 80%;
     margin: 0 auto;
     background: #fff8e7;
     color: black;
