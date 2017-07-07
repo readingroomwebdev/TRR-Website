@@ -112,24 +112,25 @@ section.news{
     box-sizing: border-box;
     color: #fff8e7;
 }
-.news h1{
+.news {
     display: block;
     color: #000;
 }
 div.feature{
-    max-width: 00px;
+    max-width: 700px;
     margin: 0 auto;
     background: #fff8e7;
     color: black;
     text-align: left;
 }
-div.altona{
+.altona{
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .altona h1{
+	text-align: left;
     font-size: 48px;
-    padding: 48px;
+    padding: 0px;
     padding-top: 48px;
     line-height: 48px;
 }
