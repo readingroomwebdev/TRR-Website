@@ -1,0 +1,4 @@
+TRR-Website changelog
+
+7/6/17 Colin H:
+  Fixed "News" page formatting. Pushed directly to main branch.
