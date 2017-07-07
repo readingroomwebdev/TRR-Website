@@ -117,12 +117,14 @@ section.news{
     color: #000;
 }
 div.feature{
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
-    background: #fff8e7;
+    background: #ede9de;
     color: black;
     text-align: left;
 }
+
+
 .altona{
     background-repeat: no-repeat;
     background-size: 100%;
