@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     box-sizing: border-box;
@@ -15,6 +19,7 @@ a:hover{
 }
 h1, h2, h3{
     font-family: 'Arvo', serif;
+	color: black;
 }
 
 h2{
@@ -36,6 +41,7 @@ p{
     padding: 18px;
 }
 .header{
+	display: inline;
     background: url(images/redbg.jpg);
     height: 90%;
     background-position: center;
@@ -56,7 +62,7 @@ nav{
     position: fixed;
     }
 img.logo{
-    width: 250px;
+	width: 250px;
     margin: 0 auto;
     margin-top: 12px;
 }
@@ -81,6 +87,7 @@ div.links{
     margin: 0 auto;
 }
 section.social{
+	display: inline;
     height: 80px;
     text-align: center;
     margin: 0 auto;
@@ -88,7 +95,7 @@ section.social{
     padding: 4px;
 }
 div.social{
-    margin: 18px 4% 18px 4%;
+    margin-left: 9%;
     display: inline-block;
     width: 60px;
     height: 60px;
@@ -114,7 +121,7 @@ section.news{
 }
 .news {
     display: block;
-    color: #000;
+	color: black;
 }
 div.feature{
     max-width: 90%;
@@ -132,7 +139,6 @@ div.feature{
 .altona h1{
 	text-align: left;
     font-size: 48px;
-    padding: 0px;
     padding-top: 48px;
     line-height: 48px;
 }
@@ -141,9 +147,9 @@ div.sunshine{
     background-repeat: no-repeat;
 }
 .sunshine h1{
-    font-size: 48px;
-    padding: 48px;
-    padding-top: 74px;
+    text-align: left;
+	font-size: 48px;
+    padding-top: 48px;
 }
 /*
 .feature input {
@@ -230,18 +236,24 @@ desc.text{
     margin: 18px;
 }
 footer{
-    height: 30px;
+    height: 50px;
     background: #1a0000;
     text-align: center;
     padding: 18px;
     color: #fff8e7;
 }
 
-@media (max-width 990px){
+@media screen and (max-width: 572px){
     img.logo{
-        width: 200px;
-    }
-    nav a{
         display: none;
+    }
+    nav{
+		display: block;
+		background: #1a0000;
+		height: 130px;
+		width: 100%;
+		text-align: center;
+		align-content: center;
+		float: bottom
     }
 }
