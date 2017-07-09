@@ -54,6 +54,10 @@ p{
 	repeat: none;
 }
 .heroCont {
+	z-index: 2; 
+	position: absolute; 
+	top: 0px; 
+	left: 0px;
 	height = 20%;
 	margin: 0 auto;
 	padding-top: none;
