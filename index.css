@@ -96,6 +96,7 @@ nav a:hover{
     transition: .2s;
 }
 div.links{
+	z-index: 5;
     width: 70%;
     margin: 0 auto;
 }
