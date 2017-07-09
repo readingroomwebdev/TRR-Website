@@ -67,13 +67,13 @@ p{
     height: 8%
 }
 nav{
-	z-index: 5;
     background: #1a0000;
     height: 74px;
     width: 100%;
     text-align: center;
     align-content: center;
     position: fixed;
+	z-index: 5;
     }
 img.logo{
 	width: 250px;
