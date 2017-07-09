@@ -53,8 +53,8 @@ p{
 	height: 120%;
 	repeat: none;
 }
-.heroCont {
-	z-index: 2; 
+.heroCont { 
+	z-index: 0;
 	position: absolute; 
 	top: 0px; 
 	left: 0px;
@@ -67,6 +67,7 @@ p{
     height: 8%
 }
 nav{
+	z-index: 5;
     background: #1a0000;
     height: 74px;
     width: 100%;
@@ -96,7 +97,6 @@ nav a:hover{
     transition: .2s;
 }
 div.links{
-	z-index: 5;
     width: 70%;
     margin: 0 auto;
 }
