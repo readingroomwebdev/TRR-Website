@@ -236,7 +236,8 @@ desc.text{
     padding: 8px;
     margin: 18px;
     border-radius: 18px;
-    margin-left: 550px;
+	text-align: right;
+    margin-right: 0%;
 }
 .button a{
     color: #fff8e7;
@@ -271,6 +272,9 @@ footer{
 	}
 	.right{
 		font-size: 25px;
+	}
+	.header{
+		height: 500px;
 	}
 	.heroCont{
 		font-size: 10px;
