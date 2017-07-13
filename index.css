@@ -49,10 +49,10 @@ p{
     width: 100%;
 }
 .heroBack {
+	background-image: url("images/redbg.jpg");
 	height: 5%;
 	repeat: none;
-	background-image: url("images/redbg.jpg");
-}
+}	
 .heroCont { 
 	height = 20%;
 	margin: 0 auto;
