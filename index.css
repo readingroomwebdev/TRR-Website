@@ -25,7 +25,6 @@ h1, h2, h3{
 h2{
     font-size: 5em;
     line-height: 1.3em;
-    margin: 1em;
     text-align: right;
     color: #fff8e7;
     padding-top: 15vh;
@@ -41,7 +40,7 @@ p{
     padding: 18px;
 }
 .header{
-	display: inline;
+	display: absolute;
     background: url(images/redbg.jpg);
     height: 90%;
     background-position: center;
@@ -50,14 +49,11 @@ p{
     width: 100%;
 }
 .heroBack {
-	height: 120%;
+	height: 5%;
 	repeat: none;
+	background-image: url("images/redbg.jpg");
 }
 .heroCont { 
-	z-index: 0;
-	position: absolute; 
-	top: 0px; 
-	left: 0px;
 	height = 20%;
 	margin: 0 auto;
 	padding-top: none;
@@ -257,17 +253,30 @@ footer{
     color: #fff8e7;
 }
 
-@media screen and (max-width: 572px){
+@media screen and (max-width: 750px){
     img.logo{
         display: none;
     }
     nav{
 		display: block;
 		background: #1a0000;
-		height: 130px;
+		height: 74px;
 		width: 100%;
 		text-align: center;
 		align-content: center;
-		float: bottom
+		float: bottom;
     }
+	.left{
+		font-size: 25px;
+	}
+	.right{
+		font-size: 25px;
+	}
+	.heroCont{
+		font-size: 10px;
+		padding-top: 10px;
+	}
+	footer{
+		height: 100px;
+	}
 }
