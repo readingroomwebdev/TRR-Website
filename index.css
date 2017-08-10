@@ -12,10 +12,10 @@ body{
 }
 a{
     text-decoration: none;
-    color: #4d0000;
+    color: #e60606;
 }
 a:hover{
-    color: #cc0000;
+    color: #7d1111;
 }
 h1, h2, h3{
     font-family: 'Arvo', serif;
@@ -34,7 +34,7 @@ h3{
     color: #fff8e7;
     text-align: right;
     margin: 1em;
-    line-height: 
+    line-height:
 }
 p{
     padding: 18px;
@@ -42,7 +42,7 @@ p{
 .header{
 	display: absolute;
     background: url(images/redbg.jpg);
-    height: 90%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,8 +52,8 @@ p{
 	background-image: url("images/redbg.jpg");
 	height: 5%;
 	repeat: none;
-}	
-.heroCont { 
+}
+.heroCont {
 	height = 20%;
 	margin: 0 auto;
 	padding-top: none;
@@ -98,26 +98,25 @@ div.links{
 }
 section.social{
 	display: inline;
-    height: 80px;
     text-align: center;
     margin: 0 auto;
     align-content: center;
-    padding: 4px;
+    padding: 85px;
 }
 div.social{
-    margin-left: 9%;
+    margin-left: 8.4%;
     display: inline-block;
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 125px;
     padding: 2px;
     vertical-align: top;
 }
 .social img{
-    width: 50px;
+    width: 75px;
     padding: 2px;
 }
 img.social:hover{
-    width: 58px;
+    width: 90px;
     padding: none;
     transition: .2s;
 }
@@ -206,7 +205,7 @@ br.clear{
     clear: both;
 }*/
 section.about{
-    padding: 34px;
+    padding: 10px;
     clear: both;
     background: #fff8e7;
 }
@@ -234,7 +233,7 @@ desc.text{
     color: #fff8e7;
     max-width: 300px;
     padding: 8px;
-    margin: 18px;
+    margin: 5px;
     border-radius: 18px;
 	text-align: right;
     margin-right: 0%;
