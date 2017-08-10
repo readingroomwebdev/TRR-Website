@@ -24,7 +24,7 @@ h1, h2, h3{
 
 h2{
     font-size: 5em;
-    line-height: 1.3em;
+    line-height: 1.7em;
     text-align: right;
     color: #fff8e7;
     padding-top: 15vh;
@@ -33,11 +33,10 @@ h3{
     font-size: 4em;
     color: #fff8e7;
     text-align: right;
-    margin: 1em;
-    line-height:
+    margin: 1.5em;
 }
 p{
-    padding: 18px;
+    padding: 0px;
 }
 .header{
 	display: absolute;
@@ -234,7 +233,7 @@ desc.text{
     max-width: 300px;
     padding: 8px;
     margin: 5px;
-    border-radius: 18px;
+    border-radius: 25px;
 	text-align: right;
     margin-right: 0%;
 }
